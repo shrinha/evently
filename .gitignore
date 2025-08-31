@@ -10,6 +10,6 @@ todo.md
 CLAUDE.md
 /prompts/**
 /prompts
-
+*.env
 .vercel
 prompts/
