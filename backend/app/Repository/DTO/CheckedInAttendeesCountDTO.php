@@ -1,0 +1,16 @@
+<?php
+
+namespace Evently\Repository\DTO;
+
+use Evently\DataTransferObjects\BaseDTO;
+
+class CheckedInAttendeesCountDTO extends BaseDTO
+{
+    public function __construct(
+        public int $checkInListId,
+        public int $checkedInCount,
+        public int $totalAttendeesCount,
+    )
+    {
+    }
+}

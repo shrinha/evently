@@ -1,0 +1,15 @@
+./.idea
+./node_modules
+./.phpunit.result.cache
+.DS_Store
+/.idea/**
+frontend/.env
+backend/.env
+docker/*.env
+todo.md
+CLAUDE.md
+/prompts/**
+/prompts
+
+.vercel
+prompts/
